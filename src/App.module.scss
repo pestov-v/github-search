@@ -1,0 +1,12 @@
+@import 'src/style/variables';
+
+.main {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: $spacing * 2;
+
+  .title {
+    margin-bottom: $spacing * 2;
+    text-align: center;
+  }
+}

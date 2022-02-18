@@ -1,0 +1,6 @@
+@import 'src/style/variables';
+
+.item {
+  display: flex;
+  grid-gap: $spacing;
+}

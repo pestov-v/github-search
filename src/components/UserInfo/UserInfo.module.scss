@@ -1,0 +1,20 @@
+@import 'src/style/variables';
+
+.infoWrapper {
+  display: flex;
+  grid-gap: $spacing * 2;
+  margin-bottom: $spacing * 4;
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    grid-gap: $spacing;
+    padding-top: $spacing * 4;
+    font-size: 18px;
+  }
+}

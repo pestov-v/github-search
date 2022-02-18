@@ -1,0 +1,9 @@
+@import 'src/style/variables';
+
+.userScreen {
+  .search {
+    display: block;
+    max-width: 80%;
+    margin: $spacing * 2 auto;
+  }
+}

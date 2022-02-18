@@ -1,0 +1,10 @@
+@import 'src/style/variables';
+
+.label {
+  width: 100%;
+
+  .input {
+    width: 100%;
+    padding: $spacing $spacing * 2;
+  }
+}

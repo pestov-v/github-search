@@ -1,0 +1,43 @@
+@import 'src/style/variables';
+
+.item {
+  width: 100%;
+  display: block;
+  padding: $spacing $spacing * 2;
+  border: 1px solid #000;
+  border-radius: 3px;
+
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: $spacing;
+
+    .nameWrapper {
+      display: flex;
+      grid-gap: $spacing;
+      align-items: center;
+
+      .img {
+        width: $spacing * 6;
+        height: $spacing * 6;
+      }
+
+      .name {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+
+    .repos {
+      display: flex;
+      align-items: center;
+      grid-gap: $spacing;
+      font-size: 18px;
+
+      .title {
+        font-weight: 700;
+      }
+    }
+  }
+}
